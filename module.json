@@ -2,15 +2,17 @@
   "id": "machine-gods-csb",
   "title": "Machine Gods CSB",
   "version": "1.0.0",
-  "manifest": "https://github.com/GrotesqueZombie/Machine-Gods-CSB/releases/latest/download/module.json",
+  "manifest": "",
   "download": "https://github.com/GrotesqueZombie/Machine-Gods-CSB/releases/download/1.0.0/module.zip",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "authors": [
     {
-      "name": "Grotesque",
+      "name": "Grotesque Games",
+      "discord": "grotesquezombie",
+      "url": "https://www.youtube.com/@GrotesqueGames",
       "flags": {}
     }
   ],
@@ -18,9 +20,10 @@
     "scripts/setup.js"
   ],
   "styles": [
-    "css/mgcsbstyles.css"
+    {
+      "src": "css/mgcsbstyles.css"
+    }
   ],
-  "manifest": "",
   "packs": [
     {
       "name": "mg-macros",
@@ -49,11 +52,13 @@
       "label": "MG Rolltables",
       "path": "packs/mg-rolltables",
       "type": "RollTable",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     }
-  ]
+  ],
+  "description": "",
+  "flags": {}
 }
