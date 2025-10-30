@@ -8,6 +8,9 @@ Now compatible with V13!
 • Also provided are my roll tables, with some linked for automatic rolling into the respective tables.<br/>
 <br/>
 
+---Errors---
+I realized I released a version that should have had a Dynamic Table for character attributes. Fixing this soon!
+
 **_*REMINDER*_**: While importing content from any of my Compendiums, please remember to tick the box for "Keep Document IDs."
 -----
 ![KeepIDs](https://github.com/user-attachments/assets/626c2347-0944-41e4-8d16-fea96d4d803f)
